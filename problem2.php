@@ -1,4 +1,5 @@
 <?php
+//count the number of jump performed
 	function solution(){
 		$x = 10;
 		$y = 150;
