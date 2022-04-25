@@ -1,4 +1,5 @@
 <?php
+//count factors for $n
 	function solution(){
 	 $n = 24;
 	 $i = 1;
