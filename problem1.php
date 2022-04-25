@@ -1,16 +1,13 @@
 <?php
-//count factors for $n
-	function solution(){
-	 $n = 24;
-	 $i = 1;
-	 $d = 0;
-	 while($i<=$n){
-		 $f = $n/$i;
-		if(is_integer($f)){$d++;}
-		$i++;
-		
-	 }
-	 echo $d;
+function solution(){
+		$n = 24;
+		$q = 0;
+		for ($x = 1;$x<=$n; $x++){
+			$i = $n%$x;
+		if ($i == 0){$q++;}
+			
+		}
+		echo $q;
 	}
 	solution();
 ?>
